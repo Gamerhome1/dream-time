@@ -17,9 +17,9 @@ def x3_1n(n):
   
 def collatz(n):
     result = [n]
-    if n == 1
+    if n == 1:
         pass 
-    elif n % 2 == 0
+    elif n % 2 == 0:
         result.extend(x2(n))
     else:
         result.extend(x3_1(n))
