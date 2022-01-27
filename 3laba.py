@@ -3,7 +3,7 @@ def input_f():
         n = int(input('Введите натуральное число'))
         if n > 0:
             break
-        print('Неверны даные')
+        print('Неверные даные')
     reurn
   
   
