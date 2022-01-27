@@ -1,18 +1,18 @@
 def input_f():
- #Макс
-
- 
-  
-  
-  
+    while True:
+        n = int(input('Введите натуральное число'))
+        if n > 0:
+            break
+        print('Неверны даные')
+    reurn
   
   
  def x2():
-  return collatz(n // 2)
+     return collatz(n // 2)
   
   
 def x3_1():
- return collatz(n*3+1)
+    return collatz(n*3+1)
 
   
   
@@ -25,3 +25,7 @@ def collatz(n):
     else:
         result.extend(x3_1(n))
     return result
+
+if __name_ ==  '__main__':
+    x = input_f()
+    print(collatz(x))
