@@ -25,6 +25,6 @@ def collatz(n):
         result.extend(x3_1(n))
     return result
 
-if __name_ ==  '__main__':
+if __name__ ==  '__main__':
     x = input_f()
     print(collatz(x))
