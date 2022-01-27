@@ -4,7 +4,7 @@ def input_f():
         if n > 0:
             break
         print('Неверные даные')
-    reurn
+    return
   
   
  def x2():
