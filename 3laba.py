@@ -7,14 +7,13 @@ def input_f():
     return n
   
   
- def x2(n):
-     return collatz(n // 2)
+def x2(n):
+    return collatz(n // 2)
   
   
 def x3_1n(n):
     return collatz(n*3+1)
 
-  
   
 def collatz(n):
     result = [n]
