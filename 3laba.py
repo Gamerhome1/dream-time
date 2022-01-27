@@ -4,14 +4,14 @@ def input_f():
         if n > 0:
             break
         print('Неверные даные')
-    return
+    return n
   
   
- def x2():
+ def x2(n):
      return collatz(n // 2)
   
   
-def x3_1():
+def x3_1n(n):
     return collatz(n*3+1)
 
   
